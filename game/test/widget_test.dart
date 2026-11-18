@@ -11,9 +11,9 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:game2048/main.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
+  testWidgets('Juego2048App smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const Myapp());
+    await tester.pumpWidget(const Juego2048App());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
